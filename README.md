@@ -14,7 +14,7 @@ In this project, I use the the information of hosts and rooms of Airbnb in the l
 
 ## Answering Questions
 
-I investigated the dataset from Ford GoBike. The purpose of the investigation to answer the three questions above.
+I investigated the dataset from Airbnb. The purpose of the investigation to answer the three questions above.
 
 Question 1 - Answer
 I used clustering to answer the question. Comparing 6 groups I made with the clusitering, I found that important elements for hosts/rooms to be booked maltiple times are high review socre and high response rate.
