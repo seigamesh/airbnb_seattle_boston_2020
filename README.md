@@ -27,5 +27,5 @@ To answer the question 2, I simply made a histogram and calculated the percentag
 <b>Question 3 - Answer</b><br>
 I analysed data of rooms with high review score of 95. First feature is high response rate. Over 90% of hosts who proved rooms with high review scores response over 90% of messages. Second one is room type. 73% of room types of them is Entire home/apt and 26% is private room. Shared room and hotel room are not usual for room types with high review score.
 
-Link to the article of medium:<br>
+## Link to the article of medium:<br>
 https://medium.com/@seim14n.222/features-of-airbnb-rooms-booked-multiple-times-in-seattle-and-boston-f233e2fab07d
