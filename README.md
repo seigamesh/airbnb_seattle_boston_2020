@@ -1,31 +1,39 @@
 # airbnb_seattle_boston_2020
 ## by Seishu Miki
 
+## Table of Contents
+1. Installation
+2. Project Motivation
+3. File Descriptions
+4. Results
+5. Licensing, Authors, and Acknowledgements
 
-## 1. Dataset
+## 1. Installation. 
 
-The data is data of Airbnb house in Seattle and Boston which I downloaded from: http://insideairbnb.com/get-the-data.html. 
-In this project, I use the the information of hosts and rooms of Airbnb in the locations in 2020 in order to answer three questions.
+There is necessary libraries to run the code beyond the Anaconda distribution  
+(numpy, pandas, matplotlib.pyplot,  KMeans from klearn.cluster, StandardScaler from sklearn.preprocessing) . 
+The code can run using Python versions 3.
 
-## 2. Questions
+## 2. Project Motivation. 
+
+For this project, I used data of Airbnb house in Seattle and Boston (downloaded from <a href="http://insideairbnb.com/get-the-data.html">here</a>).  
+The purpose of the analysis here is to answer the questions below: 
+
 - What are the important elements for hosts/rooms to be booked maltiple times?
 - Waht is the price range of hosts/rooms booked maltiple times?
 - What are the features of host/rooms with higher review score?
 
-## Answering Questions
+## 3. File Descriptions. 
 
-I investigated the dataset from Airbnb. The purpose of the investigation to answer the three questions above.
+I analyzed the data in <b>airbnb_data_analytics.ipynb</b>.
+I used clusterinig to answer the question 1, histogram for the question 2 and graph chart for question 3.  
+I put some comment on Markdown cells to make it easier that the viewer can go through the codes.
 
-<b>Question 1 - Answer</b>
-I used clustering to answer the question. Comparing 6 groups I made with the clustering, I found that important elements for hosts/rooms to be booked multiple times are high review score and high response rate. It is expected results, since we can guess host/room with high review score will give a sense of security to users, and high response rate simply contributes to good service.
+## 4. Results. 
 
-<b>Question 2 - Answer</b><br>
-To answer the question 2, I simply made a histogram and calculated the percentage of price range. 75% of average price of hosts/rooms booked multiple times is lower than $172. Also, 72% of room price is between $40 and $170.<br>
+The findings and the details of answers are described in <a href="https://medium.com/@seim14n.222/features-of-airbnb-rooms-booked-multiple-times-in-seattle-and-boston-f233e2fab07d">my blog</a> 
 
-(This number can add another insight on the answer for the question 1. Since there is no specific popular price range, price cannot be a direct element to lead users to book the room again.) 
+## 5. Licensing, Authors, and Acknowledgements. 
 
-<b>Question 3 - Answer</b><br>
-I analysed data of rooms with high review score of 95. First feature is high response rate. Over 90% of hosts who proved rooms with high review scores response over 90% of messages. Second one is room type. 73% of room types of them is Entire home/apt and 26% is private room. Shared room and hotel room are not usual for room types with high review score.
-
-## Link to the article of medium:<br>
-https://medium.com/@seim14n.222/features-of-airbnb-rooms-booked-multiple-times-in-seattle-and-boston-f233e2fab07d
+Must give credit to Airbinb for the data. The data is available <a href="http://insideairbnb.com/get-the-data.html">here</a>.  
+Otherwise, please feel free to use the code, and hopefully I can get kind feedback to develop my skills from anyone!!
